@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Title</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous"/>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <div style="margin-left: 30px; margin-top: 30px">
+                        <div style="font-size: 12px; font-weight: bold">Draw letter</div>
+                        <canvas id="canvas" width="20" height="20" style="border:1px solid #000000"></canvas>
+                        <div>
+                            <input id="letterInput" type="text" style="font-size: 12px; width: 50px"/>
+                        </div>
+                        <button class="btn btn-primary" id="saveButton" style="font-size: 12px">Save</button>
+                        <button class="btn btn-primary" id="clearButton" style="font-size: 12px">Clear</button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script th:src="canvas2.js" type="text/javascript"></script>
+</html>
